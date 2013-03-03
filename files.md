@@ -5,6 +5,11 @@ Open file at a certain line  `vim +100 filename`
 
 Write changes to the file  `:w`
 
+Write to _newfilename_   `:w newfilename`   
+_Does not write changes to the current file_
+
+Save as _newfilename_   `:sav newfilename`
+
 Quit without saving  `:q!`
 
 Write changes and quit  `:wq`
@@ -35,6 +40,8 @@ Windows
 -------
 
 _A window is a viewport on a buffer._
+
+Open a new empty widow (horizontally / vertically)   `:new` `:vnew`
 
 Open a file in a new window (split horizontally / vertically)  `split: filename` `vsplit: filename`    
 _(or just `sp` and `vsp`)_
