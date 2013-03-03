@@ -59,4 +59,22 @@ Close current window    `:q` or `Ctrl+w c`
 Move _the window_ to the left / down / up / right   `Ctrl+w H` `Ctrl+w J` `Ctrl+w K` `Ctrl+w L`
 
 
+Tabs
+----
+
+_A tab page holds one or more windows. Closing the last window of a tab closes the tab too._
+
+Open a new tab with an empty window / edit a file in a new tab    `:tabe`  `:tabe filename`
+
+Close current tab page   `:tabc`  `tabc!`
+
+Close all other tab pages   `:tabo`  `:tabo!`
+
+Go to the next tab / tab number 4    `:tabn` `:tabn 4`
+
+
+
+
+
+
 
