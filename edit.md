@@ -87,4 +87,10 @@ Between marks "a" and "b"  `:'a,'bs/foo/bar/gc`
 
 Inside a visual selection  `:'<,'>s/foo/bar/gc`
 
+Regexps: see [vimregexp.com](http://vimregexp.com). Quantifiers and grouping need escaping.   
+
+Example: in a php containing an associative array 'key1' => 'val1', 'key2' => 'val2', etc. replace all values by their keys:
+
+`%s/'\([^']\+\)' => '\([^']\+\)'/'\1' => '\1'/g`
+
 
