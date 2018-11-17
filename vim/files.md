@@ -14,6 +14,8 @@ Quit without saving  `:q!`
 
 Write changes and quit  `:wq`
 
+Forgot to open file with sudo?  `:w !sudo tee %`
+
 Edit another file  `:e filename`     
 _Use Tab for automatic file name completion_    
 _Use `:pwd` and `:cd` to set the working directory_    

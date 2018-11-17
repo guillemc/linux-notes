@@ -64,6 +64,9 @@ _(Cut and paste works the same, but using `d` instead of `y`)_
 Copy and paste using a specific copy buffer "a"  `"aY` `"ap`   
 _(Use * to refer to the system clipboard)_
 
+Prevent auto-indent when pasting a large block of code  `:set paste`   
+_(Use `:set nopaste` when finished)_
+
 
 Visual mode
 -----------
