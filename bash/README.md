@@ -53,3 +53,40 @@ Suppress error messages
 ```
 ./script.sh 2> /dev/null
 ```
+
+
+### History
+
+In our `~/.bashrc` file, we make the following adjustments:
+
+```
+# save last n entries to disk
+HISTFILESIZE=10000
+
+# load last n lines into memory
+HISTSIZE=5000
+
+# when shell exits, append to history instead of overwrite
+# (useful with multiple bash sessions, otherwise only the last one is saved)
+shopt -s histappend
+```
+
+Then we `source ~/.bashrc` to make the changes effective.
+
+
+We can search backwards in history with `Ctrl+R`, then typing part of the
+command we want to search.
+
+If we have already started typing something and want to search for it, we
+can do:
+
+```
+Ctrl+ARYR
+```
+
+Explanation:
+
+- `Ctrl+A` moves the cursor to the beginning of the line.
+- `Ctrl+R` starts reverse search, and as a side effect puts the existing text in the clipboard.
+- `Ctrl+Y` pastes the text.
+- `Ctrl+R` performs the search of the pasted text.
