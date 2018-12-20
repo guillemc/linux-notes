@@ -1,6 +1,10 @@
 Misc
 ====
 
+Soft wrap text    `:set wrap linebreak`
+
+
+
 Encryption
 ----------
 
