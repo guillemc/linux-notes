@@ -17,6 +17,8 @@ Kill text from cursor to end of line: `Ctrl+K`
 
 Kill text from cursor to start of line: `Ctrl+U`
 
+Kill word (backward): `Ctrl+W`
+
 Yank (pull) killed text and insert it: `Ctrl+Y`
 
 
