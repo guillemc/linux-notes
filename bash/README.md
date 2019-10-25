@@ -38,6 +38,17 @@ $ echo 'some text ~ *.txt $(echo foo) {1..5}'
 some text ~ *.txt $(echo foo) {1..5}
 ```
 
+### Loops
+
+```
+for (i=1; i<=10; i+=2); do echo "Hello $i"; done
+
+for i in *; do echo $i; ls $i; done
+
+for i in /etc/*.conf; do cp $i /backup; done
+
+for i in {0..3}; do for j in "a", "b", "c"; do echo "Code for $i $j: ${i}_${j}"; done; done
+```
 
 ### Redirections
 
